@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Viewer</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="styles.css"
+        />
+    </head>
+    <body>
+        <!-- Try to implement an HTML that looks like the reference example:
+        ./images/screenshot.png  -->
+        <!-- Please use the class names and IDs as defined in styles.css
+         so that the outlook can be the same as the reference. -->
+
+        <!--<script src = "main.js"></script> -->
+        <div class = "image-viewer__container">
+            <div class ="image-viewer__title">
+                <h1>Image Viewer</h1>
+            </div>
+            <div class = "image-viewer__main">
+                <div class = "image-viewer__button">
+                    <img src = "images/back.png" id="previous"/>
+                </div>
+                <div class = "image-viewer__display">
+                    <img id="display" src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2020/01/31/20200131-052418_U17017_M588719_cd2e.jpg?itok=s0SyFjTD"/>
+                    <div class = "image-viewer__display-source-wrapper">
+                        <span>
+                            <a id="source" >
+                                <p>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcy4LT4MLnDDAVSa6B1YNoeyh-UEDYByNIIw&usqp=CAU</p>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class = "image-viewer__button">
+                    <img src="images/next.png" id="next"/>
+                </div>
+            </div>
+        </div>
+        <script src = "main.js"></script>
+    </body>
+</html>
